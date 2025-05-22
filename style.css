@@ -2,27 +2,37 @@
     box-sizing:border-box;
     padding:0;
     margin:0;
+    
 }
-body{
+.header{
+    
     background-image:url(images/Object.png) ;
+    background-repeat: no-repeat;
+    
+    
 }
 
 nav{ 
+    padding-right: 100px;
+    padding-left: 100px;
     display:flex;
     justify-content: space-between;
     align-items: center;
 
 }
-li{list-style: none;
+li{
+    list-style: none;
     margin-right:15px;
     
 
 }
-li a {color:white;
+li a {font-family:"poppins", sans-serif;
+    color:white;
     text-decoration: none;
 
 }
-li a;hover{
+li a:hover{
+    color:rgb(25, 1, 158);
 
 }
 ul{
@@ -44,11 +54,13 @@ ul{
     margin-bottom: 5px;
 
 }
-.content p{
+.content p{font-family: "poppins",sans-serif;
+
      margin-right: 50px;
      color:white;
     }
-h1{ font-size:80px;
+.get-schooled{ font-family:"poppins",sans-serif;
+    font-size:70px;
     color: white ;}
 
 button{ border-radius: 10px;
@@ -60,6 +72,235 @@ button{ border-radius: 10px;
     justify-content: center;
     align-content: center ;
     margin-top: 30px;
+    font-family: "poppins";
+
 
 
 }
+button:hover{
+    background-color:black;
+    cursor:pointer;
+
+
+}
+.images{ 
+    display:flex;
+    margin:50px;
+    padding:10px ;
+    
+    
+}
+
+span{
+    color: purple;
+}
+
+h2{font-family:"poppins", sans-serif;
+    font-size:40px;
+    color:white;
+    padding-top: 80px;
+}
+.image1{
+padding-right: 80px;
+}
+
+.image1 p{ font-family: poppins,sans-serif;
+    margin-top: 5px;
+    color:white;
+
+}
+
+h3{color:white;
+    font-family: poppins;
+    margin-top:8px;
+    
+}
+
+
+.quote-section{
+    background-color: purple;
+    height: 250px;
+
+}
+.quotes-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+    color:white;
+}
+
+.quotes-content p {
+    font-family: "poppins", sans-serif;
+    padding-left: 30px;
+    
+
+}
+
+.quotes-content h3{
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.video-section{
+    padding-top:20px ;
+}
+
+h1{
+    font-family:poppins, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px ;
+    margin-right: 5px;
+
+}
+
+
+
+.video-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: poppins, sans-serif;
+    padding-right: 30px;
+  }
+  
+  .info-card {
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .image3 img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  .image4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image4 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .smile {
+    font-family: poppins;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+  }
+.membership-section{
+    background-color: #071629;
+}
+.membership-header {
+    display:flex;
+    color:black;
+    justify-content:center;
+    align-items:center;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .register-btn{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:0,5em;
+    padding-bottom:30px;
+  }
+h5{font-family: "poppins",sans-serif;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    color:white;
+}
+
+.membership-section{
+    color: white;
+}
+
+.membership-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.membership-card{
+    padding-right: 50px;
+}
+.faq-header h2{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.FAQ-container{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    column-gap: 80px;
+    row-gap: 20px;
+    padding-left: 120px;
+   
+}
+h6{font-family: poppins,sans-serif;
+    padding-bottom: 9px;
+
+}
+
+.faq-content{
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border-color: black;
+}
+.faq-content p{ font-family: poppins,sans-serif;
+
+}
+.footer-section{
+    background-color: #071629;
+}
+.icons-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.icons i{
+    color:white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.bruce img{
+border-radius: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.icons i:hover{
+    color: purple;
+}
+
+
+
+
+ 
+
